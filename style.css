@@ -1,0 +1,58 @@
+html,
+body {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+.container {
+  height: 95vh;
+  margin: 17px 30%;
+  border: 2px solid black;
+  display: grid;
+  grid-template-columns: 0.05fr 1.5fr 0.5fr 0.5fr 2fr 0.15fr 0.05fr;
+  grid-template-rows: 0.05fr 0.15fr 0.5fr 1fr 1fr 0.75fr 0.25fr 2fr 4fr 0.25fr 0.05fr;
+}
+.border {
+  grid-column-start: 2;
+  grid-column-end: 7;
+  grid-row-start: 2;
+  grid-row-end: 11;
+  border: 1px solid pink;
+}
+.contact {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 6;
+  border: 2px solid red;
+}
+.myname {
+  font-family: "Lato", sans-serif;
+  text-align: right;
+  padding: 0 20px;
+  font-size: 1.35em;
+}
+
+.aboutme {
+  grid-column-start: 3;
+  grid-column-end: 8;
+  grid-row-start: 3;
+  grid-row-end: 8;
+  border: 2px solid dodgerblue;
+}
+
+.education {
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 7;
+  grid-row-end: 10;
+  border: 2px solid purple;
+}
+
+.technical {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 6;
+  grid-row-end: 12;
+  border: 2px solid green;
+}
